@@ -20,7 +20,15 @@ public class actionsDemo {
 		WebElement move= driver.findElement(By.cssSelector("div[id='nav-link-accountList']"));
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().perform();
 		a.moveToElement(move).contextClick().build().perform();
+		System.out.println("Git file updated code 1");
+		System.out.println("Git file updated code 2");
+		System.out.println("Git file updated code 3");
+		System.out.println("Git file updated code 4");
+		System.out.println("Git file updated code 5");
 		
+		
+		System.out.println("Git file updated code 6");
+		System.out.println("Git file updated code 7");
 	}
 
 }
