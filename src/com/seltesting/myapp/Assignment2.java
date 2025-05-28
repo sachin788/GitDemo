@@ -29,7 +29,7 @@ public class Assignment2 {
         driver.findElement(By.cssSelector(".alert-success"));
         String messageText = driver.findElement(By.cssSelector(".alert-success")).getText();
         System.out.println(messageText);
-
+       
 		
 	}
 
