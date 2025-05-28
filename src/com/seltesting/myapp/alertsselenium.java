@@ -22,6 +22,7 @@ public class alertsselenium {
 		driver.switchTo().alert().dismiss();
 		System.out.println("Web code added...");
 		System.out.println("second code updated by architect 1");
+		System.out.println("second code updated by architect 2");
 	}
 	
 
